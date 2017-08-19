@@ -14,7 +14,7 @@ Includes pure TensorFlow as well as Keras implementation of the soft attention m
 
 ### Stacked Attention Models
 
-Includes files for the stacked attention mechanism. 
+Includes files for the stacked attention mechanism. embed_attention_vqa.py is the main file which handles the training procedure of the neural network. embed_attention_predictions.py handles the testing procedure by loading the saved model.
 
 ### Break down into end to end tests
 

@@ -9,6 +9,22 @@ Custom Neural Network architecture based on stacking image embeddings from CNNs 
 * Keras 1.1.1
 * TensorFlow 0.9.0
 
+## Getting Started
+
+* Download the Training images from http://msvocds.blob.core.windows.net/coco2014/train2014.zip and validation images from http://msvocds.blob.core.windows.net/coco2014/val2014.zip
+
+* Run create_batch_directories.py in new_data folder after changing the appropiate paths. Zip all the individual folders. There should be around 1798 zipped files.
+
+* Run the keras_maps_extractor.py in the final_features folder to obtain the image maps.
+
+* Run the embed_attention_vqa.py in Stacked_Attention_Models to obtain the model configurations after the first epoch.
+
+* Run the continue_embed_vqa.py in Stacked_Attention_Models to execute the training procedure batch-wise. The training is to be done in batches due to the large size of the dataset. Each batch of 128 images has image maps of size approximately 3 GB and there are around 1798 batches !
+
+* Run the embed_attention_predictions.py after loading the trained model and saving the weights in a separate file to obtain the prediction probabilities.
+
+* Run accuracy_code.py in misc folder to obtain the final accuracy in terms of the VQA metric.
+
 ## Description of the files
 
 ### nn_architectures.py

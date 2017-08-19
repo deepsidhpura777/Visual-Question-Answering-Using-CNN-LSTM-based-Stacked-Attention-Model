@@ -16,13 +16,9 @@ Includes pure TensorFlow as well as Keras implementation of the soft attention m
 
 Includes files for the stacked attention mechanism. embed_attention_vqa.py is the main file which handles the training procedure of the neural network. embed_attention_predictions.py handles the testing procedure by loading the saved model.
 
-### Break down into end to end tests
+### final_features
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+Includes the keras_maps_extractor.py that extracts the image maps of dimension 14x14x2048, that is 196 attention distributions of 2048 dimension using the Keras implementation of the ResNet 152 architecture.
 
 ### And coding style tests
 

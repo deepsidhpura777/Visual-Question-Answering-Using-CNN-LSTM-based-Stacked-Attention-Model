@@ -2,13 +2,11 @@
 
 Custom Neural Network architecture based on stacking image embeddings from CNNs (ResNet 152) and question embeddings from LSTMs to predict correct answers for context relevant questions about the images in VQA 1 validation dataset. The model accuracy is 55.7 % using the standard VQA evaluation metric, within 5 % range of the state-of-the-art model.
 
-## Getting Started
+## Description of the files
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### nn_architectures.py
 
-### Prerequisites
-
-What things you need to install the software and how to install them
+Keras implementation of the stacked attention model. It includes multiple neural network architectures with different hyperparameters. The final archietcture is defined as functional_embed_network.
 
 ```
 Give examples

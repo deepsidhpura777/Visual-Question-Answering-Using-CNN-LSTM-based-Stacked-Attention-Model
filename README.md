@@ -6,33 +6,15 @@ Custom Neural Network architecture based on stacking image embeddings from CNNs 
 
 ### nn_architectures.py
 
-Keras implementation of the stacked attention model. It includes multiple neural network architectures with different hyperparameters. The final archietcture is defined as functional_embed_network.
+Keras implementation of the stacked attention model. It includes multiple neural network architectures with different hyperparameters. The final architecture is defined as functional_embed_network.
 
-```
-Give examples
-```
+### Soft Attention Models
 
-### Installing
+Includes pure TensorFlow as well as Keras implementation of the soft attention models using the VGG features and the ResNet 152 features extracted through transfer learning and concatenated with the LSTM features. The best accuracy of the soft attention model is 53.5 %
 
-A step by step series of examples that tell you have to get a development env running
+### Stacked Attention Models
 
-Say what the step will be
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 

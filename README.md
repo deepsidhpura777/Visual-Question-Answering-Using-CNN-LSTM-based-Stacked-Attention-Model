@@ -14,7 +14,7 @@ Includes pure TensorFlow as well as Keras implementation of the soft attention m
 
 ### Stacked Attention Models
 
-
+Includes files for the stacked attention mechanism. 
 
 ### Break down into end to end tests
 

@@ -2,11 +2,22 @@
 
 Custom Neural Network architecture based on stacking image embeddings from CNNs (ResNet 152) and question embeddings from LSTMs to predict correct answers for context relevant questions about the images in VQA 1 validation dataset. The model accuracy is 55.7 % using the standard VQA evaluation metric, within 5 % range of the state-of-the-art model.
 
+
+## Prerequisites
+
+* Python 2.7 (Anaconda distribution favorable)
+* Keras 1.1.1
+* TensorFlow 0.9.0
+
 ## Description of the files
 
 ### nn_architectures.py
 
 Keras implementation of the stacked attention model. It includes multiple neural network architectures with different hyperparameters. The final architecture is defined as functional_embed_network.
+
+### final_outputs
+
+Includes the Neural Network training log describing the loss after each epoch. The best accuracy was at epoch 84, described in the accuracy_epoch_84
 
 ### Soft Attention Models
 
@@ -16,17 +27,11 @@ Includes pure TensorFlow as well as Keras implementation of the soft attention m
 
 Includes files for the stacked attention mechanism. embed_attention_vqa.py is the main file which handles the training procedure of the neural network. embed_attention_predictions.py handles the testing procedure by loading the saved model.
 
-### final_features
+### final_features and ResNet_Features
 
-Includes the keras_maps_extractor.py that extracts the image maps of dimension 14x14x2048, that is 196 attention distributions of 2048 dimension using the Keras implementation of the ResNet 152 architecture.
+Includes the keras_maps_extractor.py that extracts the image maps of dimension 14x14x2048, that is 196 attention distributions of 2048 dimension using the Keras implementation of the ResNet 152 architecture. The keras_val_extractor.py in ResNet_Features includes the code for feature extraction of soft attention mechanism
 
 ### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 

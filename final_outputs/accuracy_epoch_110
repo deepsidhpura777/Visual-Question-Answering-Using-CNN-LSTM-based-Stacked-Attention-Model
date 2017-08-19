@@ -1,0 +1,39 @@
+----------------------------------------
+Begin PBS Prologue Wed Aug  9 12:09:46 PDT 2017
+Job ID:            23929766.hpc-pbs1.hpcc.usc.edu
+Username:          dsidhpur
+Accountname:       default
+Group:             csds-ar
+Project:           default
+Name:              accuracy.pbs
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Has MIC:           no
+Is hsda:           false
+Nodes:             hpc1118 
+TMPDIR:            /tmp/23929766.hpc-pbs1.hpcc.usc.edu
+End PBS Prologue Wed Aug  9 12:09:48 PDT 2017
+----------------------------------------
+
+
+Model Accuracy: 0.556471788795
+
+
+----------------------------------------
+Begin PBS Epilogue Wed Aug  9 12:11:59 PDT 2017
+Job ID:           23929766.hpc-pbs1.hpcc.usc.edu
+Username:         dsidhpur
+Accountname:      default
+Group:            csds-ar
+Job Name:         accuracy.pbs
+Session:          12625
+Limits:           neednodes=1:ppn=16,nodes=1:ppn=16,walltime=00:10:00
+Resources:        cput=00:02:06,energy_used=0,mem=8121604kb,vmem=2041060kb,walltime=00:02:12
+Queue:            quick
+Shared Access:    no
+Has MIC:          no
+Is hsda:          false
+removed '/scratch'
+End PBS Epilogue Wed Aug  9 12:12:00 PDT 2017
+----------------------------------------

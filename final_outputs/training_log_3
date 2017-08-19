@@ -1,0 +1,156 @@
+----------------------------------------
+Begin PBS Prologue Sun Aug  6 13:57:50 PDT 2017
+Job ID:            23899251.hpc-pbs1.hpcc.usc.edu
+Username:          dsidhpur
+Accountname:       default
+Group:             csds-ar
+Project:           default
+Name:              final.pbs
+Queue:             main
+Shared Access:     no
+All Cores:         no
+Has MIC:           no
+Is hsda:           false
+GPUS(hpc4135)     GPU 0: Tesla K40m (UUID: GPU-cfba8952-ac23-cb28-2357-ef33b573fe5d)
+GPUS(hpc4135)     GPU 1: Tesla K40m (UUID: GPU-69247c08-a622-d620-637d-c468f53a09f6)
+Nodes:             hpc4135 
+TMPDIR:            /tmp/23899251.hpc-pbs1.hpcc.usc.edu
+End PBS Prologue Sun Aug  6 13:57:50 PDT 2017
+----------------------------------------
+
+Epoch Finished: 53  Loss: 0.705418
+Time per epoch in seconds: 2478
+Steps: 100688
+
+Epoch Finished: 54  Loss: 0.721836
+Time per epoch in seconds: 2544
+Steps: 102486
+
+Epoch Finished: 55  Loss: 0.721728
+Time per epoch in seconds: 2552
+Steps: 104284
+
+Epoch Finished: 56  Loss: 0.662681
+Time per epoch in seconds: 2528
+Steps: 106082
+
+Epoch Finished: 57  Loss: 0.597428
+Time per epoch in seconds: 2497
+Steps: 107880
+
+Epoch Finished: 58  Loss: 0.7047
+Time per epoch in seconds: 2505
+Steps: 109678
+
+Epoch Finished: 59  Loss: 0.612467
+Time per epoch in seconds: 2515
+Steps: 111476
+
+Epoch Finished: 60  Loss: 0.712103
+Time per epoch in seconds: 2599
+Steps: 113274
+
+Epoch Finished: 61  Loss: 0.7228
+Time per epoch in seconds: 2523
+Steps: 115072
+
+Epoch Finished: 62  Loss: 0.706521
+Time per epoch in seconds: 2473
+Steps: 116870
+
+Epoch Finished: 63  Loss: 0.689615
+Time per epoch in seconds: 2503
+Steps: 118668
+
+Epoch Finished: 64  Loss: 0.541314
+Time per epoch in seconds: 2476
+Steps: 120466
+
+Epoch Finished: 65  Loss: 0.764795
+Time per epoch in seconds: 2488
+Steps: 122264
+
+Epoch Finished: 66  Loss: 0.76599
+Time per epoch in seconds: 2483
+Steps: 124062
+
+Epoch Finished: 67  Loss: 0.737408
+Time per epoch in seconds: 2492
+Steps: 125860
+
+Epoch Finished: 68  Loss: 0.702646
+Time per epoch in seconds: 2506
+Steps: 127658
+
+Epoch Finished: 69  Loss: 0.695387
+Time per epoch in seconds: 2461
+Steps: 129456
+
+Epoch Finished: 70  Loss: 0.665262
+Time per epoch in seconds: 2458
+Steps: 131254
+
+Epoch Finished: 71  Loss: 0.635255
+Time per epoch in seconds: 2465
+Steps: 133052
+
+Epoch Finished: 72  Loss: 0.74258
+Time per epoch in seconds: 2448
+Steps: 134850
+
+Epoch Finished: 73  Loss: 0.628807
+Time per epoch in seconds: 2460
+Steps: 136648
+
+Epoch Finished: 74  Loss: 0.675548
+Time per epoch in seconds: 2500
+Steps: 138446
+
+Epoch Finished: 75  Loss: 0.715003
+Time per epoch in seconds: 2450
+Steps: 140244
+
+Epoch Finished: 76  Loss: 0.692123
+Time per epoch in seconds: 2494
+Steps: 142042
+
+Epoch Finished: 77  Loss: 0.672386
+Time per epoch in seconds: 2470
+Steps: 143840
+
+Epoch Finished: 78  Loss: 0.654796
+Time per epoch in seconds: 2492
+Steps: 145638
+
+Epoch Finished: 79  Loss: 0.627532
+Time per epoch in seconds: 2446
+Steps: 147436
+
+Epoch Finished: 80  Loss: 0.514451
+Time per epoch in seconds: 2470
+Steps: 149234
+
+Epoch Finished: 81  Loss: 0.639651
+Time per epoch in seconds: 2474
+Steps: 151032
+
+Epoch Finished: 82  Loss: 0.559968
+Time per epoch in seconds: 2455
+Steps: 152830
+----------------------------------------
+Begin PBS Epilogue Mon Aug  7 10:46:12 PDT 2017
+Job ID:           23899251.hpc-pbs1.hpcc.usc.edu
+Username:         dsidhpur
+Accountname:      default
+Group:            csds-ar
+Job Name:         final.pbs
+Session:          1090
+Limits:           neednodes=1:ppn=16:gpus=2:gpu_k40,nodes=1:ppn=16:gpus=2:gpu_k40,walltime=24:00:00
+Resources:        cput=25:46:54,energy_used=0,mem=63403632kb,vmem=121145284kb,walltime=20:48:21
+Queue:            main
+Shared Access:    no
+Has MIC:          no
+Is hsda:          false
+removed '/scratch'
+End PBS Epilogue Mon Aug  7 10:46:12 PDT 2017
+----------------------------------------

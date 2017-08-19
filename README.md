@@ -1,6 +1,6 @@
 # Visual Question Answering using CNN-LSTM based Stacked Attention Model
 
-Custom Neural Network architecture based on stacking image embeddings from CNNs (ResNet 152) and question embeddings from LSTMs to predict correct answers for context relevant questions about the images in VQA 1 validation dataset. The model accuracy is 55.7 % using the standard VQA evaluation metric, within 5 % range of the state-of-the-art model.
+Custom Neural Network architecture based on stacking image embeddings from CNNs (ResNet 152) and question embeddings from LSTMs to predict correct answers for context relevant questions about the images in **VQA 1 validation dataset**. The model accuracy is **55.7 %** using the standard VQA evaluation metric, within 5 % range of the state-of-the-art model.
 
 
 ## Prerequisites
@@ -37,7 +37,7 @@ Includes the Neural Network training log describing the loss after each epoch. T
 
 ### Soft Attention Models
 
-Includes pure TensorFlow as well as Keras implementation of the soft attention models using the VGG features and the ResNet 152 features extracted through transfer learning and concatenated with the LSTM features. The best accuracy of the soft attention model is 53.5 %
+Includes pure TensorFlow as well as Keras implementation of the soft attention models using the VGG features and the ResNet 152 features extracted through transfer learning and concatenated with the LSTM features. The best accuracy of the soft attention model is **53.5 %**
 
 ### Stacked Attention Models
 
